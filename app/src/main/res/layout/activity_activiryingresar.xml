@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9F8FA"
+    tools:context=".Activiryingresar">
+
+    <EditText
+        android:id="@+id/ai_nota"
+        android:layout_width="344dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="372dp"
+        android:ems="10"
+        android:hint="@string/nota"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ai_telefono"
+        android:layout_width="347dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="300dp"
+        android:ems="10"
+        android:hint="@string/telefono"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ai_pais"
+        android:layout_width="347dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="160dp"
+        android:ems="10"
+        android:hint="@string/pais"
+        android:inputType="textPersonName"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnn"
+        android:layout_width="247dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="511dp"
+        android:layout_marginBottom="168dp"
+        android:background="#231F1F"
+        android:text="Agregar"
+        android:textColorLink="#332D2D"
+        android:visibility="visible"
+        app:iconTint="#100F0F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/ai_nombre"
+        android:layout_width="347dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="236dp"
+        android:ems="10"
+        android:hint="nombres"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

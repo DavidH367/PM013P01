@@ -1,0 +1,9 @@
+<resources>
+    <string name="ContactosDG">PM013P01</string>
+    <string name="Agregar">Agregar</string>
+
+    <string name="pais">Ingresa Pais</string>
+    <string name="nombre">ingrese nombre</string>
+    <string name="telefono">Ingresa tu numero de Telefono</string>
+    <string name="nota">Agrega una Nota</string>
+</resources>
